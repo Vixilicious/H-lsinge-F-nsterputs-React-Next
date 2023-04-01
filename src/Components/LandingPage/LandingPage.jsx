@@ -1,35 +1,42 @@
-import React, { useRef } from 'react';
+import styles from './LandingPage.module.css';
 
-const LandingPage = () => {
-  const aboutPage = useRef();
+const LandingPage = ({ aboutRef }) => {
   return (
-    <div className='landingPage'>
-      <video className='video' autoPlay loop muted>
-        <source src='/assets/dark-opacity.mp4' type='video/mp4' />
-      </video>
-      <div className='lp-text-container'>
-        <div className='lp-all-content'>
-          <h1>
+    <div className={styles['bg-container']}>
+      <img
+        className={styles['og-bg']}
+        src='/assets/Images/og-bg-window.png'
+        alt=''
+      />
+      <div className={styles['lp-text-container']}>
+        <div className={styles['lp-all-content']}>
+          <h1 className={styles['h1']}>
             Välkommen till <br />
             <span>Hälsinge Fönsterputs!</span>
           </h1>
           <img
-            className='gold-line'
+            className={styles['gold-line']}
             src='/assets/Images/gold-bar.png'
             alt=''
           />
-          <h3 className='lp-h3'>
+          <h3 className={styles['lp-h3']}>
             Vi ger dina fönster en riktig <span>"Wow"</span> faktor!
           </h3>
         </div>
-        <section className='svg-img'>
+        <section className={styles['svg-img']}>
           <svg
-            onClick={() =>
-              aboutPage.current.scrollIntoView({ behavior: 'smooth' })
-            }
+            className={styles['svg']}
+            onClick={() => {
+              const y =
+                aboutRef.current.getBoundingClientRect().top + scrollY;
+              window.scrollTo({
+                top: y - 80 - 170,
+                behavior: 'smooth',
+              });
+            }}
             stroke='currentColor'
             fill='currentColor'
-            stroke-width='0'
+            strokeWidth='0'
             version='1.1'
             viewBox='0 0 16 16'
             height='1em'
@@ -40,7 +47,6 @@ const LandingPage = () => {
           </svg>
         </section>
       </div>
-      <div className='about-page' ref={aboutPage}></div>
     </div>
   );
 };

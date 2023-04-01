@@ -1,0 +1,40 @@
+.footer-container {
+  height: 15vh;
+  background-color: #d8ca9391;
+  display: flex;
+}
+
+.footer {
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer-p {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.593);
+}
+
+.vic-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.vic {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.footer-2023 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-container {
+    margin-bottom: 80px;
+  }
+}

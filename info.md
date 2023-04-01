@@ -48,7 +48,7 @@ Våra utförare besiktigar alltid med kund efter utfört arbete.
 
 Vi putsar fönster även vid kyla och regn.
 
-Vi erbjuder olika typer av abonnemang för fönsterputs som både är ekonomiskt fördelaktiga och gör att ni slipper hålla reda på när det är dags för nästa putsning. Men med det sagt går det självklart bra att anlita ISS för fönsterputs enstaka tillfällen också.
+Vi erbjuder olika typer av abonnemang för fönsterputs som både är ekonomiskt fördelaktiga och gör att ni slipper hålla reda på när det är dags för nästa putsning.
 
 Utöver fönsterputsning är våra medarbetare utbildade i höghöjdsarbete samt säkerhet för att kunna arbeta med hjälp lift. Vidare står vi självklart för allt rengöringsmedel och all annan utrustning som krävs för att göra jobbet.
 
@@ -94,3 +94,11 @@ max-width: 407px;
 height: 700px;
 margin: 165px 0 200px 80px;
 }
+
+Vi förstår att flyttning kan vara en stressig upplevelse, och det är därför vi vill göra det så enkelt och smidigt som möjligt för dig. Med vår erfarenhet och expertis kan du lita på att vi tar hand om allt - från packning och transport till montering av möbler på din nya plats.
+
+Vi är stolta över att ha ett team av dedikerade och professionella flyttare som arbetar med noggrannhet och omsorg för att säkerställa att allt går enligt planen. Oavsett om du flyttar till en annan stad eller bara några kvarter bort, kan du känna dig trygg med att dina ägodelar är i goda händer.
+
+Vi erbjuder skräddarsydda flyttlösningar som passar dina specifika behov och önskemål. Vi förstår vikten av att ha tillförlitliga och professionella flyttare som du kan lita på, och det är precis vad du får när du väljer oss.
+
+Så om du letar efter en enkel och smidig flyttupplevelse, är HF här för att hjälpa till. Kontakta oss idag för att få mer information om våra tjänster och hur vi kan hjälpa dig att flytta på ett säkert och effektivt sätt.

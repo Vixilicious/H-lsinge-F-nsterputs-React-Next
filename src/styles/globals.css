@@ -244,13 +244,6 @@ button:hover {
   flex-direction: column;
 }
 
-.video {
-  border: 3px solid rgb(37, 201, 190);
-  height: 100vh;
-  padding: 0;
-  object-fit: cover;
-}
-
 h1 {
   font-size: 70px;
   font-weight: 500;
@@ -372,63 +365,36 @@ svg {
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
-.lp-about {
-  height: 100%;
-  background-color: #22252e;
-}
-
-.about-container {
-  min-height: 100vh;
-  border: 3px solid rebeccapurple;
+.sec-tjanster-cards {
+  border: 1px solid rebeccapurple;
   display: flex;
+  height: 100%;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
-.aj {
-  border: 3px solid rgb(43, 255, 0);
-  border-radius: 15px;
-  max-width: 600px;
-}
-
-.blob-text {
+.sec-card {
+  padding: 10px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  width: 20%;
+  height: 70%;
+  border: 1px solid black;
+  border-radius: 10px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-direction: column;
-  border: 1px solid yellow;
-  max-width: 600px;
-  min-height: 400px;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.597);
 }
-/* 
-.gold-spray {
-  opacity: 0.3;
-  position: relative;
-  z-index: -1;
-} */
 
-.blob-text h4 {
-  color: white;
+.sec-card-h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sec-card-p {
   font-weight: 500;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 28px;
-}
-
-.about-p {
-  font-family: 'Josefin Sans', sans-serif;
-  border: 1px solid red;
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
-}
-
-@media screen and (max-width: 1400px) {
-  .aj {
-    width: 300px;
-  }
-  :after {
-    display: none;
-  }
 }

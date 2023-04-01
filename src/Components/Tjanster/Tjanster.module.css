@@ -1,0 +1,82 @@
+.tjanster-container {
+  background-color: rgb(225, 220, 200);
+  display: flex;
+  min-height: 60vh;
+  padding: 30px;
+}
+
+.tjanster-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  position: relative;
+  max-width: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-icon-container {
+  background-color: rgb(239, 235, 219);
+  width: 150px;
+  height: 150px;
+  min-height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-icon {
+  width: 50px;
+}
+
+.card-h3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.card-p {
+  font-weight: 500;
+}
+
+.card-p-more {
+  font-weight: 500;
+}
+
+.card.open .card-p-more {
+  display: block;
+}
+
+.card-btn-holder {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  bottom: -20px;
+}
+
+.card-a {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.card-a:active {
+  color: rgb(34, 99, 205);
+  border-color: rgb(34, 99, 205);
+}
