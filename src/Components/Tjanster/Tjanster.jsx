@@ -142,4 +142,5 @@ const Tjanster = forwardRef((props, ref) => {
   );
 });
 
+Tjanster.displayName = 'Tjanster';
 export default Tjanster;

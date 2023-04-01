@@ -44,4 +44,5 @@ const About = forwardRef((props, ref) => {
   );
 });
 
+About.displayName = 'About';
 export default About;

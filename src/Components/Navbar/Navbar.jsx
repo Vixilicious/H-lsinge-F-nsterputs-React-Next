@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import styles from './Navbar.module.css';
 
 export default function Navbar({ tjansterRef, aboutRef, contactRef }) {
