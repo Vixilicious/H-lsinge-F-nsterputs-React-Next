@@ -23,7 +23,7 @@ export default function App() {
         />
         <meta
           name='keywords'
-          content='Fönsterputs, Hällsinge, Hudiksvall, hällsingefönsterputs, puts, smuts, rena, fönster, gratis, offert '
+          content='Fönsterputs, Hällsinge, Hudiksvall, hällsingefönsterputs, puts, smuts, rena, fönster, gratis, offert,fönsterputs '
         />
       </Head>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 120 }}>
