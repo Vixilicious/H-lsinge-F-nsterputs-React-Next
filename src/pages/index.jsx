@@ -24,7 +24,7 @@ export default function App() {
         />
         <meta
           name='keywords'
-          content='Fönsterputs, Hälsinge, Hudiksvall, hälsingefönsterputs, puts, smuts, rena, fönster, gratis, offert,fönsterputs '
+          content='Fönsterputs, Hälsinge, Hudiksvall, hälsingefönsterputs, puts, smuts, rena, fönster, gratis, offert,fönsterputs, Jörgen Wennberg '
         />
       </Head>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 120 }}>
