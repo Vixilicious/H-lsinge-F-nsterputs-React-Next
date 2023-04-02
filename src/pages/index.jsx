@@ -6,10 +6,10 @@ import Navbar from '@/components/Navbar/Navbar';
 import Tjanster from '@/Components/Tjanster/Tjanster';
 import React, { useRef } from 'react';
 
-export default function index() {
-  const tjansterRef = useRef();
-  const aboutRef = useRef();
-  const contactRef = useRef();
+export default function App() {
+  const tjansterRef = useRef(null);
+  const aboutRef = useRef(null);
+  const contactRef = useRef(null);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 120 }}>
