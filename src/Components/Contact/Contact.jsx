@@ -43,7 +43,7 @@ const Contact = forwardRef((props, ref) => {
       </div>
       <img
         className={styles['gratis-offert']}
-        src='/assets/images/gratis-offert.png'
+        src='/assets/Images/gratis-offert.png'
         alt=''
       />
     </div>
