@@ -1,6 +1,6 @@
 .footer-container {
   height: 15vh;
-  background-color: #d8ca9391;
+  background-color: #1a140ead;
   display: flex;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .footer-p {
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.593);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.718);
 }
 
 .vic-container {
@@ -22,8 +22,8 @@
   justify-content: flex-start;
 }
 .vic {
-  color: rgb(0, 0, 0);
-  font-weight: 500;
+  color: rgba(255, 255, 255, 0.388);
+  font-weight: 400;
 }
 
 .footer-2023 {
