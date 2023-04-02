@@ -24,7 +24,7 @@ export default function App() {
         />
         <meta
           name='keywords'
-          content='Fönsterputs, Hälsinge, Hudiksvall, hälsingefönsterputs, puts, smuts, rena, fönster, gratis, offert,fönsterputs, Jörgen Wennberg '
+          content='Fönsterputs, Hälsinge, Hudiksvall, hälsingefönsterputs, puts, smuts, rena, fönster, gratis, offert,fönsterputs, Vi erbjuder olika typer av abonnemang för fönsterputs som både är ekonomiskt fördelaktiga och gör att ni slipper hålla reda på när det är dags för nästa putsning. '
         />
       </Head>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 120 }}>
