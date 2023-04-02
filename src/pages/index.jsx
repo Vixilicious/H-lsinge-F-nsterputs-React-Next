@@ -1,8 +1,8 @@
-import About from '@/components/About/About';
-import Contact from '@/components/Contact/Contact';
+import About from '@/Components/About/About';
+import Contact from '@/Components/Contact/Contact';
 import Footer from '@/Components/Footer/Footer';
-import LandingPage from '@/components/LandingPage/LandingPage';
-import Navbar from '@/components/Navbar/Navbar';
+import LandingPage from '@/Components/LandingPage/LandingPage';
+import Navbar from '@/Components/Navbar/Navbar';
 import Tjanster from '@/Components/Tjanster/Tjanster';
 import React, { useRef } from 'react';
 
