@@ -16,7 +16,15 @@ export default function App() {
     <div>
       <Head>
         <title>Alltid glasklart!</title>
-        <meta name='description' content='Det här är min sida' />
+        <link rel='icon' href='%PUBLIC_URL%/favicon-16x16.png' />
+        <meta
+          name='description'
+          content='Hällsinges pålitligaste fönsterputs! Alltid Glasklart!'
+        />
+        <meta
+          name='keywords'
+          content='Fönsterputs, Hällsinge, Hudiksvall, hällsingefönsterputs, puts, smuts, rena, fönster, gratis, offert '
+        />
       </Head>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 120 }}>
         <div style={{ height: '100vh' }}>
