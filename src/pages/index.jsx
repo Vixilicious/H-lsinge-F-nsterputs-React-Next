@@ -16,7 +16,8 @@ export default function App() {
     <div>
       <Head>
         <title>Alltid glasklart!</title>
-        <link rel='icon' href='%PUBLIC_URL%/favicon-16x16.png' />
+        <link rel='icon' href='/favicon-16x16.png' />
+
         <meta
           name='description'
           content='Hällsinges pålitligaste fönsterputs! Alltid Glasklart!'
