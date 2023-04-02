@@ -14,11 +14,6 @@ const About = forwardRef((props, ref) => {
           <h4 className={styles['about-text-h4']}>
             Effektiv och högkvalitativ fönsterputs
           </h4>
-          {/* <img
-            className='gold-spray'
-            src='/assets/Images/gold-spray-transparent.png'
-            alt=''
-          /> */}
           <p className={styles['about-p']}>
             Vi erbjuder en effektiv och högkvalitativ fönsterputstjänst som
             gör skillnad. Vi förstår vikten av rena fönster för både ditt

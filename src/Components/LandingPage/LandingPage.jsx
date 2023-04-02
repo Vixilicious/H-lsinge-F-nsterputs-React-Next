@@ -20,7 +20,8 @@ const LandingPage = ({ aboutRef }) => {
             alt=''
           />
           <h3 className={styles['lp-h3']}>
-            Vi ger dina fönster en riktig <span>"Wow"</span> faktor!
+            Vi ger dina fönster en riktig <span>&#34;Wow&#34; </span>
+            faktor!
           </h3>
         </div>
         <section className={styles['svg-img']}>
