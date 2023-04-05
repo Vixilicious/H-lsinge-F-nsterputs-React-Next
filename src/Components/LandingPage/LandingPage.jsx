@@ -14,6 +14,7 @@ const LandingPage = ({ aboutRef }) => {
             Välkommen till <br />
             <span>Hälsinge Fönsterputs!</span>
           </h1>
+          <h2 className={styles['h2']}>- Alltid glasklart! -</h2>
           <img
             className={styles['gold-line']}
             src='/assets/Images/gold-bar.png'

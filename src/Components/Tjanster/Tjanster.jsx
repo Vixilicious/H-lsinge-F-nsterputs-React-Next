@@ -109,19 +109,15 @@ const Tjanster = forwardRef((props, ref) => {
             className={styles['card-p-more']}
             style={showMore[2] ? {} : { display: 'none' }}
           >
-            Vi är stolta över att ha ett team av dedikerade och
-            professionella flyttare som arbetar med noggrannhet och omsorg
-            för att säkerställa att allt går enligt planen. Oavsett om du
-            flyttar till en annan stad eller bara några kvarter bort, kan
-            du känna dig trygg med att dina ägodelar är i goda händer. Vi
-            erbjuder skräddarsydda flyttlösningar som passar dina specifika
-            behov och önskemål. Vi förstår vikten av att ha tillförlitliga
-            och professionella flyttare som du kan lita på, och det är
-            precis vad du får när du väljer oss. Så om du letar efter en
-            enkel och smidig flyttupplevelse, är HF här för att hjälpa
-            till. Kontakta oss idag för att få mer information om våra
-            tjänster och hur vi kan hjälpa dig att flytta på ett säkert och
-            effektivt sätt.
+            Vi erbjuder specialiserad flyttstädning där vi tar hand om
+            rengöringen av din bostad när du flyttat ut och allt är tomt.
+            Vårt dedikerade team av professionella städare arbetar noggrant
+            och effektivt för att säkerställa att allt är rent och fräscht
+            för nästa hyresgäst eller köpare. Vi erbjuder städlösningar som
+            passar dina behov och önskemål. Du kan lita på oss för att se
+            till att din bostad är städad till högsta standard och redo för
+            nästa användning. Kontakta oss idag för mer information om våra
+            flyttstädtjänster.
           </p>
           <div className={styles['card-btn-holder']}>
             <a
